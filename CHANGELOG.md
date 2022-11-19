@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1-alpha.0](https://github.com/vuthanhbayit/log-proxy/compare/v1.0.0...v1.0.1-alpha.0) (2022-11-19)
+
+
+### Bug Fixes
+
+* peer dependencies for vue ([6db36ba](https://github.com/vuthanhbayit/log-proxy/commit/6db36bae8179f5b32c649f7f98a55722099a3a6f))
+
 ## [1.0.0](https://github.com/vuthanhbayit/log-proxy/compare/v0.0.1-alpha.1...v1.0.0) (2022-11-19)
 
 

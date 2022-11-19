@@ -1,6 +1,6 @@
 {
   "name": "@vt7/log-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha.0",
   "description": "A repo log proxy for Vue 3",
   "keywords": [
     "vue3",
