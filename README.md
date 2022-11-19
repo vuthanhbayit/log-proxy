@@ -34,7 +34,17 @@ import { reactive } from "vue";
 
 const state = reactive({a: 1})
 
-console.log(state)
+console.log('state', state)
+
+// --> before import log proxy
+// state Proxy{a: 1}
+//       [[Handler]]: Object
+//       [[Target]]: Object
+//       [[IsRevoked]]: false
+
+
+// --> after import log proxy
+// state {a: 1}
 </script>
 ```
 
