@@ -32,19 +32,18 @@ app.mount('#app')
 <script setup>
 import { reactive } from "vue";
 
-const state = reactive({a: 1})
+const state = reactive({ a: 1 })
 
-console.log('state', state)
+console._log('old log state', state)
+console.log('new log state', state)
 
-// --> before import log proxy
-// state Proxy{a: 1}
+// old log state Proxy{a: 1}
 //       [[Handler]]: Object
 //       [[Target]]: Object
 //       [[IsRevoked]]: false
 
 
-// --> after import log proxy
-// state {a: 1}
+// new log state {a: 1}
 </script>
 ```
 
