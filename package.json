@@ -1,0 +1,42 @@
+{
+  "name": "@vt7/log-proxy",
+  "version": "0.0.0",
+  "description": "A repo log proxy for Vue 3",
+  "keywords": [
+    "vue3",
+    "log",
+    "proxy",
+    "log-proxy"
+  ],
+  "license": "MIT",
+  "author": "Vu Thanh Bay <vuthanhbayit@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuthanhbayit/log-proxy"
+  },
+  "homepage": "",
+  "main": "lib/index.mjs",
+  "module": "lib/index.mjs",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepublishOnly": "yarn build",
+    "build": "unbuild",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "standard-version": "^9.3.2",
+    "unbuild": "^0.7.4"
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
+  },
+  "peerDependencies": {
+    "vue": ">3.0.0"
+  }
+}
