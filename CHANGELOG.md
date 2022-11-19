@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/vuthanhbayit/log-proxy/compare/v0.0.1-alpha.1...v1.0.0) (2022-11-19)
+
+
+### Features
+
+* update gitignore ([f8a9487](https://github.com/vuthanhbayit/log-proxy/commit/f8a948706f2ce5963c8e7c5577e3fec52d36590e))
+* update readme ([a300fe0](https://github.com/vuthanhbayit/log-proxy/commit/a300fe05c9f98f71390194dd05e0cc801fc212c6))
+
 ### [0.0.1-alpha.1](https://github.com/vuthanhbayit/log-proxy/compare/v0.0.1-alpha.0...v0.0.1-alpha.1) (2022-11-19)
 
 
